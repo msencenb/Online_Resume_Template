@@ -1,0 +1,76 @@
+Here are the most common ways to modify this theme:
+
+1) Add a section
+2) Add a subsection
+3) Change the color of the banner and text titles
+
+
+1) Adding a section
+
+Looking in index.html look for lines that begin like this:
+
+<div class="partialspacer">
+
+If you want to make a brand new section simply copy everything between the opening <div class="partialspacer"> and closing </div>.
+Afer that... just fill in your info!
+
+2) Add a subsection
+
+Let's say you want to add a section to the "Technical Skills section".
+Copy and paste this after subsection (after the closing </div> of a <div class="content"> tag) and fill in your info:
+
+<div class="clearboth"></div>
+<div class="halfdivider"></div>
+<div class="clearboth"></div>
+<div class="sectiontitle">
+	Insert your title
+</div>
+<div class="clearboth"></div>
+<div class="time">
+	2 Years Experience
+</div>
+<div class="clearboth"></div>
+<div class="content">
+	Nunc mollis egestas tortor, non bibendum urna volutpat ut. Duis a metus diam. Praesent placerat, erat id molestie facilisis, odio tortor suscipit augue, non lacinia ipsum arcu id ipsum.
+</div>			
+
+You can copy and paste any subsection.. copying and pasting a section from the work experiences section will give you bullets.
+
+
+3) Changing the color of the banner and text
+Since this theme is almost all pure HTML/CSS you can customize it a lot!
+This means changing the color throughout the theme is very simple.
+
+First open the file "resume.css". Starting at line 14 of the file you will see the following lines:
+".bannerhead" ".sectiontitle" ".triangle"
+
+All you have to do is change the "background" property of the .bannerhead,
+the "color" of the .sectiontitle, and the border-color of the .triangle. Listed below are some
+popular color schemes. If you want to make up your own color scheme you might check out
+http://colorschemedesigner.com/ and grab some hex color codes!
+
+Format Like this:
+background/color: number;
+triangle: number;
+
+Red
+#a60c00
+#85504C
+
+Steel Blue
+#4682b4
+#b0c4de
+
+Sea Green
+#2e8b57
+#8fbc8f
+
+Purple
+#6A287E
+#F9B7FF
+
+Turquoise
+#3B9C9C
+#92C7C7
+
+If you have any questions feel free to message me or email at matt.sencenbaugh@gmail.com
